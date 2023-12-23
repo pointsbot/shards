@@ -1,5 +1,7 @@
-module github.com/servusdei2018/shards/v2
+module github.com/pointsbot/shards
 
 go 1.16
 
-require github.com/bwmarrin/discordgo v0.27.1
+require (
+	github.com/pointsbot/discordgo v0.0.1
+)

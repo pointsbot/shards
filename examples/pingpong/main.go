@@ -7,8 +7,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/bwmarrin/discordgo"
-	"github.com/servusdei2018/shards/v2"
+	"github.com/pointsbot/discordgo"
+	"github.com/pointsbot/shards"
 )
 
 // Global variables.

@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bwmarrin/discordgo"
+	"github.com/pointsbot/discordgo"
 )
 
 // Manager facilitates the management of Shards.
@@ -158,7 +158,7 @@ func (m *Manager) Restart() (nMgr *Manager, err error) {
 	}
 
 	// Apply the same intent
-	mgr.RegisterIntent(m.Intent)	
+	mgr.RegisterIntent(m.Intent)
 
 	// We have no need to lock the old Manager at this point, and
 	// starting the new one will take some time.
